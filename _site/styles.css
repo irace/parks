@@ -27,6 +27,12 @@ body {
   transition: 0.5s ease;
 }
 
+@media only screen and (max-width: 375px) {
+  .park img {
+    width: 300px;
+  }
+}
+
 /* Overlay */
 
 .park:hover img {

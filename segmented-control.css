@@ -23,6 +23,12 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 375px) {
+  .segmented {
+    width: 80%;
+  }
+}
+
 .segmented label {
   display: block;
   flex: 1;
