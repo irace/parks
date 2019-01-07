@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: -10px 0 20px -10px;
+  /* margin: -10px 0 20px -10px; */
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 /* Parks */
 
 .park {
-  margin: 20px 0 0 20px;
+  margin: 10px;
   position: relative;
 }
 
@@ -33,7 +33,7 @@ body {
   }
 
   .park {
-    margin: 0 0 20px 0;
+    margin: 10px 0;
     width: 80%;
   }
 
@@ -88,7 +88,7 @@ body {
 .credits {
   color: white;
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0 20px 0;
 }
 
 .credits a:link,
