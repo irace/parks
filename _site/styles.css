@@ -10,8 +10,6 @@ body {
   margin: 0;
   background-color: #1e1e1e;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: env(safe-area-inset-top) env(safe-area-inset-right)
-    env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 /* Parks */
@@ -28,8 +26,17 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
+  .container {
+    margin: 0;
+  }
+
+  .park {
+    margin: 0 0 20px 0;
+    width: 80%;
+  }
+
   .park img {
-    width: 300px;
+    width: 100%;
   }
 }
 
