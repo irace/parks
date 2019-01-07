@@ -10,6 +10,8 @@ body {
   margin: 0;
   background-color: #1e1e1e;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 /* Parks */
@@ -37,6 +39,10 @@ body {
 
   .park img {
     width: 100%;
+  }
+
+  .credits {
+    margin: 0 0 20px 0;
   }
 }
 
