@@ -13,18 +13,15 @@ $(document).ready(function() {
     });
   }
 
-  $(".segmented label input[type=radio]").each(function() {
-    $(this).on("change", function() {
-      if ($(this).is(":checked")) {
+  $(".segmented label").each(function() {
+    $(this).click(function() {
+      if (!$(this).hasClass("checked")) {
         $(this)
-          .parent()
           .siblings()
           .each(function() {
             $(this).removeClass("checked");
           });
-        $(this)
-          .parent()
-          .addClass("checked");
+        $(this).addClass("checked");
       }
 
       if (this.id === "all") {

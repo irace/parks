@@ -68,12 +68,3 @@
   border-radius: 0 0.4em 0.4em 0;
   border-right: 1px solid;
 }
-
-.segmented input[type="radio"] {
-  appearance: none;
-  -webkit-appearance: none;
-  margin: 0;
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-}
