@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
   }
 
-  $(".segmented label").each(function() {
+  $(".segment").each(function() {
     $(this).click(function() {
       if (!$(this).hasClass("checked")) {
         $(this)
@@ -21,6 +21,7 @@ $(document).ready(function() {
           .each(function() {
             $(this).removeClass("checked");
           });
+
         $(this).addClass("checked");
       }
 

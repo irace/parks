@@ -40,10 +40,6 @@ body {
   .park img {
     width: 100%;
   }
-
-  .credits {
-    margin: 0 0 20px 0;
-  }
 }
 
 /* Overlay */
@@ -100,4 +96,10 @@ a:visited,
 a:hover,
 a:active {
   color: #80c4df;
+}
+
+@media only screen and (max-width: 375px) {
+  .credits {
+    margin: 0 0 20px 0;
+  }
 }
