@@ -2,6 +2,8 @@
 
 A visual representation of the U.S. National Parks that we’ve visited.
 
+<img width="980" alt="screen shot 2019-01-22 at 3 16 26 pm" src="https://user-images.githubusercontent.com/399560/51563201-b3dc6980-1e59-11e9-8c06-4b8e8dc79e1a.png">
+
 ## Poster sets
 
 I’m using the Anderson Design Group style currently, but it’d be easy to swap in an alternative poster set if you prefer.
