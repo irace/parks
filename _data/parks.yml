@@ -98,6 +98,10 @@
 - name: Hot Springs
   poster: hot-springs.jpg
 
+- name: Indiana Dunes
+  state: IN
+  poster: indiana-dunes.jpg
+
 - name: Isle Royale
   poster: isle-royale.jpg
 

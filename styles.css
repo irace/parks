@@ -103,3 +103,11 @@ a:active {
     margin: 0 0 20px 0;
   }
 }
+
+/* Segmented control */
+
+@media only screen and (max-width: 375px) {
+  .segmented-control-container {
+    position: fixed;
+  }
+}
